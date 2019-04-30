@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "st";
+    src:local("st"),
+        local("宋体"),
+        local("DK-SONGTI"),
+        local("STSongti"),
+        local("STSong"),
+        local("Song S");
+}
+@font-face {
+    font-family: "kt";
+    src:local("kt"),
+        local("楷体"),
+	     local("DK-KAITI"),
+	     local("STKaiti"),
+        local("STKai"),
+        local("MKai PRC");
+}
+@font-face {
+    font-family: "ht";
+    src:local("DK-XIHEITI"),
+          url("../Fonts/ht.ttf"),
+        local("ht"),
+        local("黑体"),local("微软雅黑"),       
+	     local("STHeiti"),
+	     local("STHei"),
+	     local("MYing Hei S");
+}
+@font-face {
+    font-family: "fs";
+    src:local("DK-FANGSONG"),
+          url("../Fonts/fs.ttf"),
+        local("fs"),
+        local("仿宋"),
+	     local("STKaiti"),
+        local("STKai"),
+        local("MKai PRC");
+}
+@font-face {
+    font-family: "h2";
+    src:local("DK-XIAOBIAOSONG"),
+          url("../Fonts/h2.ttf"),
+	     local("h2"),
+        local("方正大标宋_GBK"),
+        local("方正大标宋简体"), 
+        local("方正大标宋繁体"),
+        local("STHeiti"),
+	     local("STHei"),
+	     local("MYing Hei S");     
+}
+@font-face {
+    font-family: "h3";
+    src:local("DK-XIAOBIAOSONG"),
+          url("../Fonts/h3.ttf"),
+	     local("h3"),
+        local("方正大标宋_GBK"),
+        local("方正大标宋简体"), 
+        local("方正大标宋繁体"),
+        local("STHeiti"),
+	     local("STHei"),
+	     local("MYing Hei S");     
+}
+
+.fs{font-family: "ZY-FANGSONG","fs";}
+.kt{font-family: "ZY-KAITI","kt";}
+.cover {
+   text-align: center;
+   text-indent: 0;
+}
+sup img{
+    width:0.96em;
+    height:0.96em;
+    margin:0;
+    padding-top:0.5em;
+    vertical-align: middle;
+}
+hr.xian{
+    text-align: left;
+    duokan-text-align: left;
+    width: 60%;
+    height: 1px;
+    margin: 1.5em 0 1.5em -0.5em;
+    border-style: none;
+    border-top: 1px solid gray;
+}
+ol{
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.duokan-footnote-content{
+    text-align: justify;
+    margin-left: 1em;
+}
+.footnote{
+    font-size: 0.95em;
+    line-height: 1.6;
+    font-family: "kt";
+    margin: 0 0 0 0em;
+    text-indent: -1em;
+}
+a{color: black;}
+
+.image {  
+    text-align: center;
+    text-indent: 0em;
+    duokan-text-indent: 0em;
+    margin: 0.8em 0;
+}
+.duokan-image-single {  
+    text-align: center;
+    text-indent: 0em;
+    duokan-text-indent: 0em;
+    margin: 1.5em 0;
+}
+.duokan-image-maintitle {
+	font-family: "kt";
+	font-size: 0.9em;
+   font-weight: normal;
+   text-align: justify;
+   duokan-text-indent: 2em;
+   text-indent: 2em;
+   margin: 1.5em 0 0 0;
+}
+.kt {
+    font-family: "DK-KAITI","方正楷体_GBK","kt","楷体","KaiTi","STKaiti","STKai",serif;
+    text-align: ennter;
+
+    color: #000;
+    font-size: 1.1em;
+
+}
+/*版权信息*/
+.vol {
+    text-indent: 0em;
+    text-align: center;
+    padding: 0.8em;
+    margin: 0 auto 3px auto;
+    color: #3B2735;
+    font-family: "方正小标宋_GBK","DK-XIAOBIAOSONG";
+    font-size: 130%;
+    text-shadow: none;
+}
+
+.cp {
+    font-family: "DK-CODE","DK-XIHEITI",细黑体,"xihei",sans-serif;
+    color: #412938;
+    font-size: 70%;
+    text-align: left;
+    text-indent: 0em;
+    duokan-text-indent: 0em;
+}
+
+.xchar {
+    font-family: "DK-KAITI","kt","楷体","楷体_gb2312";
+    text-indent: 0em;
+    duokan-text-indent: 0em;
+}
